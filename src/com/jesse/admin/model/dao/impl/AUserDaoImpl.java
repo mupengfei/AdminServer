@@ -11,6 +11,8 @@ public class AUserDaoImpl implements AUserDao {
 	@Override
 	public AUser getAUser() {
 		// TODO Auto-generated method stub
+		sessionFactory.getCurrentSession().getTransaction().begin();
+		
 		return null;
 	}
 

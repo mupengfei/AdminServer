@@ -1,10 +1,12 @@
 package com.jesse.admin.model.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 
 @Entity
 public class AUser {
+	@Id
 	private int id;
 	private String aUsername;
 	private String aPassword;
